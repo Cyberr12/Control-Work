@@ -1,9 +1,23 @@
 import "./style.scss"
+import { Outlet } from 'react-router-dom'
+import Nav from "./Nav.jsx"
+import Footer from "../Footer"
+
 
 function About() {
     return ( 
         <>
-          <h1>This is Base</h1>
+           <header>
+            <Nav/>
+           </header>
+
+           <div id='Outlet'>
+               <Outlet/>
+           </div>
+
+           <footer id="Footer">
+               <Footer/>
+           </footer>
         </>
      );
 }

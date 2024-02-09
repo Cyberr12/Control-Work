@@ -1,11 +1,9 @@
-import About from './About';
-import Navigation from './Navigation'
+import "./style.scss"
+import About from "./About"
 
 function AllComponents() {
     return ( 
-        <>
-          <About/>
-        </>
+        <About/>
      );
 }
 

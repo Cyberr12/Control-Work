@@ -1,11 +1,10 @@
 import './App.scss';
 import AllComponents from './components/AllComponents';
 
-
 function App() {
   return (
     <div className="App">
-        <AllComponents/>
+       <AllComponents/>
     </div>
   );
 }
