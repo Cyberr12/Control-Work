@@ -1,4 +1,5 @@
 import "./style.scss"
+import { Link } from 'react-router-dom'
 
 function Nav() {
     return ( 
@@ -8,7 +9,7 @@ function Nav() {
           </div> 
 
           <div className="center-text">
-             <h4>more information about us</h4>  
+                
           </div>
 
           <div className="finnish-text">
