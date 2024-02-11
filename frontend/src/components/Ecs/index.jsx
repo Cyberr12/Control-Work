@@ -1,10 +1,11 @@
 import "./style.scss"
+import Japan from "../../Assets/Images/Japan.jpg"
 
 function Esc() {
-    return ( 
+       return ( 
         <>
            <h1>Экскурсии</h1>
-           <br />
+           <img src={Japan} alt="Japan" />
            <p>
             Здраствуйте здесь мы будем говорить про экскурсии по этому присаживайтесь будет интересно. Отвечаю !
            </p>
