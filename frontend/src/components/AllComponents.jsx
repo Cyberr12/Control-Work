@@ -6,6 +6,7 @@ import Kabinet from "./Kabinet"
 import NoPage from "./NoPage"
 import Countries from "./Countries";
 import About from "./About"
+import Kndr from "./Kndr"
 
 function AllComponents() {
     return ( 
@@ -16,6 +17,7 @@ function AllComponents() {
                 <Route path="/kabinet" element={<Kabinet />} />
                 <Route path="/countries" element={<Countries />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/kndr" element={<Kndr />} />
                 <Route path="*" element={<NoPage />} />
             </Route>
         </Routes>

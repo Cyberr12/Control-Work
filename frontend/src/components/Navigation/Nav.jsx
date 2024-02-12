@@ -23,7 +23,7 @@ function Nav() {
 
         <div className="finnish-text">
            <button>
-               К Экскурсиям !
+           <Link to={"/countries"}>К Экскурсиям</Link>
            </button>
        </div>
     </div>
