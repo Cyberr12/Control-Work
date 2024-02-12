@@ -1,0 +1,9 @@
+#p-base {
+    background-color: white;
+    color: black;
+    padding: 40px;
+}
+.gory-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

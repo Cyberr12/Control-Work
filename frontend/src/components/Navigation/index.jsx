@@ -3,10 +3,9 @@ import { Outlet } from 'react-router-dom'
 import Nav from "./Nav.jsx"
 import Footer from "../Footer"
 
-
 function Navigation() {
     return ( 
-        <>
+        <div className="big-div">
            <header>
             <Nav/>
            </header>
@@ -18,7 +17,7 @@ function Navigation() {
            <footer id="Footer">
                <Footer/>
            </footer>
-        </>
+        </div>
      );
 }
 

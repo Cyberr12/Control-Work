@@ -3,16 +3,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    background-color: gray;
+    
+}
+.very-big-project {
+    background: url(../../Assets/Images/Japan.jpg);
 }
 button {
     margin-top: 20px;
     border: none;
-    background-color: orangered;
-    color: black;
+    background-color: rgb(32, 196, 214);
+    color: white;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 20%;
+    border-radius: 30%;
 }
 .center-text {
     margin-top: 10px;
@@ -23,4 +26,7 @@ button {
         text-decoration: none;
         color: snow;
     }
+}
+#shar {
+    margin: 20px;
 }
