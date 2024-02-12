@@ -8,6 +8,8 @@ import About from "./About"
 import Kndr from "./Kndr"
 import Iraq from "./Iraq"
 import Syriya from "./Syriya"
+import Afgan from "./Afgan"
+import Haiti from "./Haiti";
 
 function AllComponents() {
     return ( 
@@ -20,6 +22,8 @@ function AllComponents() {
                 <Route path="/kndr" element={<Kndr />} />
                 <Route path="/iraq" element={<Iraq />} />
                 <Route path="/syriya" element={<Syriya />} />
+                <Route path="/afgan" element={<Afgan />} />
+                <Route path="/haiti" element={<Haiti />} />
                 <Route path="*" element={<NoPage />} />
             </Route>
         </Routes>

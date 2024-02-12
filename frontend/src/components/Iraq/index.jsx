@@ -5,7 +5,7 @@ import Iraq3 from "../../Assets/Images/iraq3.jpg"
 function Iraq() {
     return ( 
        <div className="IraqDIV">
-        <h1>Информация о КНДР</h1>
+        <h1>Информация о Ираке</h1>
         <button id="Iraq-butto2"><Link to={"/countries"}>Назад</Link></button>
         <div className="Iraq1">
           <div className="Iraq-child">
