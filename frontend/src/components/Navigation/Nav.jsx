@@ -16,9 +16,9 @@ function Nav() {
 
         <div className="center-text">
               <Link to={"/ecs"}>Экскурсии</Link>
+              <Link to={"/countries"}>Страны</Link>
               <Link to={"/about"}>О нас</Link>
               <Link to={"/kabinet"}>Кабинет</Link>
-              <Link to={"/countries"}>Страны</Link>
         </div>
 
         <div className="finnish-text">
