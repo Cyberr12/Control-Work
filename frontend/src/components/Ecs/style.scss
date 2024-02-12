@@ -4,6 +4,17 @@
     padding: 40px;
 }
 .gory-div {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    background-color: #6b6868;
+}
+.gory-div2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+#p-base {
+    background-color: rgb(214, 212, 212);
 }

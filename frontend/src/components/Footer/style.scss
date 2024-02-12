@@ -5,6 +5,22 @@
     grid-template-columns: 1fr 1fr;
     text-align: center;
 }
+.footer1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(82, 82, 82);
+}
+.child2 {
+    margin-top: 30px;
+    padding-left: 100px;
+    a {
+        text-decoration: none;
+        color: snow;
+    }
+}
+.child1 {
+    text-align: center;
+}
 input {
     background-color: rgba(16, 10, 10, 0.789);
     color: black;
