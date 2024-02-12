@@ -1,0 +1,27 @@
+.country-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(210, 201, 201);
+}
+.city1 {
+    margin-left: 200px;
+}
+#h1-child {
+    text-align: center;
+}
+#p-child {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(210, 201, 201);
+    padding: 50px;
+    border-radius: 20%;
+}
+#butto-child {
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(32, 196, 214);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 30%;
+}
