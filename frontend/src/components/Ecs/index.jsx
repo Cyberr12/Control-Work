@@ -4,9 +4,6 @@ import Iraq from "../../Assets/Images/iraq2.jpg"
 import Kndr from "../../Assets/Images/kndr.jpg"
 import Syria from "../../Assets/Images/syriya.jpg"
 import Afgan from "../../Assets/Images/afgan.jpg"
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 function Esc() {
    const settings = {
