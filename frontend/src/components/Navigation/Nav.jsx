@@ -1,12 +1,12 @@
 import "./style.scss"
 import { Link } from 'react-router-dom'
-import Shar from "../../Assets/Images/shar.jpg"
+import Shar from "../../Assets/Icons/shar.jpg"
 
 function Nav() {
     return ( 
         
      <div className="very-big-project">
-      <img src={Shar} width={50} height={50} id="shar"/>
+      <img src={Shar} width={50} height={50} id="shar" alt="shar"/>
         <div className="big-project">
     
           <div className="start-text">
