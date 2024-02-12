@@ -18,7 +18,6 @@ function Nav() {
               <Link to={"/ecs"}>Экскурсии</Link>
               <Link to={"/countries"}>Страны</Link>
               <Link to={"/about"}>О нас</Link>
-              <Link to={"/kabinet"}>Кабинет</Link>
         </div>
 
         <div className="finnish-text">

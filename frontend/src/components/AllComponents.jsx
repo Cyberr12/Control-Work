@@ -2,11 +2,12 @@ import "./style.scss"
 import Navigation from "./Navigation"
 import { Routes, Route } from "react-router-dom";
 import Ecs from "./Ecs"
-import Kabinet from "./Kabinet"
 import NoPage from "./NoPage"
 import Countries from "./Countries";
 import About from "./About"
 import Kndr from "./Kndr"
+import Iraq from "./Iraq"
+import Syriya from "./Syriya"
 
 function AllComponents() {
     return ( 
@@ -14,10 +15,11 @@ function AllComponents() {
             <Route path="/" element={<Navigation />}>
                 <Route index element={<Ecs />} />
                 <Route path="/ecs" element={<Ecs />} /> 
-                <Route path="/kabinet" element={<Kabinet />} />
                 <Route path="/countries" element={<Countries />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/kndr" element={<Kndr />} />
+                <Route path="/iraq" element={<Iraq />} />
+                <Route path="/syriya" element={<Syriya />} />
                 <Route path="*" element={<NoPage />} />
             </Route>
         </Routes>
