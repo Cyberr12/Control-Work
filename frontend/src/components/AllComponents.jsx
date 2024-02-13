@@ -10,6 +10,7 @@ import Iraq from "./Iraq"
 import Syriya from "./Syriya"
 import Afgan from "./Afgan"
 import Haiti from "./Haiti";
+import Gory from "./Gory";
 
 function AllComponents() {
     return ( 
@@ -24,6 +25,7 @@ function AllComponents() {
                 <Route path="/syriya" element={<Syriya />} />
                 <Route path="/afgan" element={<Afgan />} />
                 <Route path="/haiti" element={<Haiti />} />
+                <Route path="/gory" element={<Gory />} />
                 <Route path="*" element={<NoPage />} />
             </Route>
         </Routes>
