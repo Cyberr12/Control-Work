@@ -1,8 +1,14 @@
 import "./style.scss"
 import { Link } from 'react-router-dom'
 import Kndr2 from "../../Assets/Images/kndr2.jpg"
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Kndr() {
+  const showToast = () => {
+    toast.success('Покупка билета совершена.!');
+  };
     return ( 
        <div className="kndrDIV">
         <h1>Информация о КНДР</h1>
@@ -19,9 +25,10 @@ function Kndr() {
           <br />
           <br />
           <h1>Стоимость поездки</h1>
-          <button id="kndr-butto"><h2>1000$</h2></button> <button><h2>Купить Сейчас</h2></button>
+          <button id="kndr-butto"><h2>1000$</h2></button> <button onClick={showToast}><h2>Купить Сейчас</h2></button>
+          <ToastContainer />
           </div>
-        </div>
+          </div>
        </div>
      );
 }

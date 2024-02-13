@@ -1,8 +1,13 @@
 import "./style.scss"
 import { Link } from 'react-router-dom'
 import haiti2 from "../../Assets/Images/haiti2.jpg"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Haiti() {
+  const showToast = () => {
+    toast.success('Покупка билета совершена.!');
+  };
     return ( 
        <div className="HaitiDIV">
         <h1>Информация о Афганистане</h1>
@@ -18,7 +23,8 @@ function Haiti() {
           <br />
           <br />
           <h1>Стоимость поездки</h1>
-          <button id="Haiti-butto"><h2>100$</h2></button> <button><h2>Купить Сейчас</h2></button>
+          <button id="Haiti-butto"><h2>100$</h2></button> <button onClick={showToast}><h2>Купить Сейчас</h2></button>
+          <ToastContainer/>
           </div>
         </div>
        </div>

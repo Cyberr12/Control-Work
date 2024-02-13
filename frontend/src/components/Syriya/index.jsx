@@ -1,8 +1,14 @@
 import "./style.scss"
 import { Link } from 'react-router-dom'
 import Syriya3 from "../../Assets/Images/syriya.jpg"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function Iraq() {
+  const showToast = () => {
+    toast.success('Покупка билета совершена.!');
+  };
     return ( 
        <div className="IraqDIV">
         <h1>Информация о Сирии</h1>
@@ -20,7 +26,8 @@ function Iraq() {
           <br />
           <br />
           <h1>Стоимость поездки</h1>
-          <button id="Iraq-butto"><h2>1500$</h2></button> <button><h2>Купить Сейчас</h2></button>
+          <button id="Iraq-butto"><h2>1500$</h2></button> <button onClick={showToast}><h2>Купить Сейчас</h2></button>
+          <ToastContainer/>
           </div>
         </div>
        </div>
