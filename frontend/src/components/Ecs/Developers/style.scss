@@ -1,0 +1,19 @@
+.developer-child1,
+.developer-child2,
+.developer-child3,
+.developer-child4 {
+    text-align: center;
+}
+#IlonImg,
+#NegrImg,
+#SigmaImg,
+#GigachadImg {
+    border-radius: 50%;
+}
+.many-developers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#developer-h1-id {
+    text-align: center;
+}

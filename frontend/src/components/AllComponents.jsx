@@ -11,6 +11,7 @@ import Syriya from "./Syriya"
 import Afgan from "./Afgan"
 import Haiti from "./Haiti";
 import Gory from "./Gory";
+import Developers from "./Ecs/Developers";
 
 function AllComponents() {
     return ( 
@@ -26,6 +27,7 @@ function AllComponents() {
                 <Route path="/afgan" element={<Afgan />} />
                 <Route path="/haiti" element={<Haiti />} />
                 <Route path="/gory" element={<Gory />} />
+                <Route path="/ecs/developers" element={<Developers />} />
                 <Route path="*" element={<NoPage />} />
             </Route>
         </Routes>

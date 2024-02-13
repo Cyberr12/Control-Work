@@ -8,11 +8,13 @@ import Afgan from "../../Assets/Images/afgan.jpg"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Developers from "./Developers"
+
 
 function Esc() {
    const settings = {
       dots: true,
-      infinite: true,
+      infinite: true, 
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -63,7 +65,7 @@ function Esc() {
            <button><Link to={"/gory"}>Больше Информации</Link></button>
             </div>
           </div>
-                     
+          <Developers/>          
          </>
      );
 }

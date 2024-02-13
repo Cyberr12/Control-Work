@@ -20,6 +20,8 @@ function Footer() {
               <br />
               <Link to={"/kabinet"}>Кабинет</Link> <br />
               <br />
+              <Link to={"/ecs/developers"}>Наши разработчики</Link>
+              <br />
             </div>
          </div>
          <div className="footer2">
