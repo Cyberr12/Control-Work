@@ -9,9 +9,14 @@ import Kndr from "./Kndr"
 import Iraq from "./Iraq"
 import Syriya from "./Syriya"
 import Afgan from "./Afgan"
+import Place from "./Place"
 import Haiti from "./Haiti";
 import Gory from "./Gory";
 import Developers from "./Ecs/Developers";
+import ElonMusk from "./Ecs/Developers/ElonMusk"
+import Niger from "./Ecs/Developers/Niger"
+import Sigma from "./Ecs/Developers/Sigma"
+import Gigachad from "./Ecs/Developers/Gigachad"
 
 function AllComponents() {
     return ( 
@@ -28,6 +33,11 @@ function AllComponents() {
                 <Route path="/haiti" element={<Haiti />} />
                 <Route path="/gory" element={<Gory />} />
                 <Route path="/ecs/developers" element={<Developers />} />
+                <Route path="/ElonMusk" element={<ElonMusk />} />
+                <Route path="/Niger" element={<Niger />} />
+                <Route path="/Sigma" element={<Sigma />} />
+                <Route path="/Place" element={<Place />} />
+                <Route path="/Gigachad" element={<Gigachad />} />
                 <Route path="*" element={<NoPage />} />
             </Route>
         </Routes>

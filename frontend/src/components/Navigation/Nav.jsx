@@ -24,6 +24,10 @@ function Nav() {
            <button>
            <Link to={"/countries"}>К Экскурсиям</Link>
            </button>
+           <br />
+           <button>
+           <Link to={"/Place"}>Местоположение</Link>
+           </button>
        </div>
     </div>
    </div>
