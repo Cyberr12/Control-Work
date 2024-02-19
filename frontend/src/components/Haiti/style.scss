@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
-#Iraq-butto {
+#Haiti-butto {
     margin-top: 20px;
     border: none;
     background-color: rgb(210, 201, 201);
@@ -12,7 +12,7 @@
     margin-bottom: 20px;
     border-radius: 30%;
 }
-#Iraq-butto2 {
+#Haiti-butto2 {
     margin-top: 20px;
     border: none;
     background-color: rgb(210, 201, 201);
@@ -21,4 +21,20 @@
     margin-bottom: 20px;
     border-radius: 30%;
     margin-left: 80px;
+    a {
+        text-decoration: none;
+        color: white;
+         
+        &:hover {
+        text-decoration: none;
+        color: black;
+        }
+    }
+    
+    &:hover {
+        background-color: yellow;
+        padding: 22px;
+        border-radius: 10%;
+        color: black;
+      }
 }

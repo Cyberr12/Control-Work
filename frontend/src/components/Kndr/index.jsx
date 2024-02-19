@@ -1,13 +1,29 @@
 import "./style.scss"
 import { Link } from 'react-router-dom'
 import Kndr2 from "../../Assets/Images/kndr2.jpg"
-import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import React, { useState } from 'react';
+import SmileTyan from "../../Assets/Images/SmileTyan.jpg"
+import badTyan from "../../Assets/Images/badTyan.jpg"
 
 function Kndr() {
+  const [clicked, setClicked] = useState(false);
+
   const showToast = () => {
-    toast.success('Покупка билета совершена.!');
+    if (!clicked) {
+      toast.success(<div>
+        <img src={SmileTyan} alt="SmileTyan" width={150} height={100}/>
+        <p>Покупка прошла успешно!</p>
+      </div>);
+      setClicked(true);
+      setTimeout(() => setClicked(false), 10000); // Сбросить состояние через 10 секунд
+    } else {
+      toast.error(<div>
+        <img src={badTyan} alt="badTyan" width={150} height={100}/>
+        <p>Вы уже купили билет подождите 10 секунд</p>
+      </div>);
+    }
   };
     return ( 
        <div className="kndrDIV">
@@ -25,7 +41,7 @@ function Kndr() {
           <br />
           <br />
           <h1>Стоимость поездки</h1>
-          <button id="kndr-butto"><h2>1000$</h2></button> <button onClick={showToast}><h2>Купить Сейчас</h2></button>
+          <button id="kndr-butto"><h2>1000$</h2></button> <button onClick={showToast} id="kndr-buto2"><h2>Купить Сейчас</h2></button>
           <ToastContainer />
           </div>
           </div>

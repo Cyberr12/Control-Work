@@ -21,4 +21,38 @@
     margin-bottom: 20px;
     border-radius: 30%;
     margin-left: 80px;
+    a {
+        text-decoration: none;
+        color: white;
+         
+        &:hover {
+        text-decoration: none;
+        color: black;
+        }
+    }
+    
+    &:hover {
+        background-color: yellow;
+        padding: 22px;
+        border-radius: 10%;
+        color: black;
+      }
+}
+#kndr-buto2 {
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(32, 196, 214);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 30%;
+    a {
+        text-decoration: none;
+        color: snow;
+    }
+    &:hover {
+        background-color: green;
+        padding: 25px;
+        border-radius: 15%;
+      }
 }
