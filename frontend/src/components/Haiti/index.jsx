@@ -15,14 +15,16 @@ function Haiti() {
       toast.success(<div>
         <img src={SmileTyan} alt="SmileTyan" width={150} height={100}/>
         <p>Покупка прошла успешно!</p>
-      </div>);
+      </div>, { closeOnClick: true }
+      );
       setClicked(true);
       setTimeout(() => setClicked(false), 10000); // Сбросить состояние через 10 секунд
     } else {
       toast.error(<div>
         <img src={badTyan} alt="badTyan" width={150} height={100}/>
         <p>Вы уже купили билет подождите 10 секунд</p>
-      </div>);
+      </div>, { closeOnClick: true }
+      );
     }
   };
     return ( 
