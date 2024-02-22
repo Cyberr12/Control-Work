@@ -41,3 +41,14 @@ button {
 * {
     transition: 0.5s;
 }
+.taki {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+#Eng {
+    margin-left: 950px;
+    margin-right: 50px;
+    background-color: orangered;
+    color: white;
+}

@@ -11,6 +11,7 @@ function Place() {
           </p>
           <img src={Panasenkov} alt="Panasenkov" width="600" height="500" id="Panasenkov-id"/>
          </div>
+        
         </>
      );
 }

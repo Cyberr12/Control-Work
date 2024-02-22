@@ -2,11 +2,16 @@ import "./style.scss"
 import { Link } from 'react-router-dom'
 import Shar from "../../Assets/Icons/shar.jpg"
 
+
 function Nav() {
+
     return ( 
         
      <div className="very-big-project">
+      <div className="taki">
       <img src={Shar} width={50} height={50} id="shar" alt="shar"/>
+      <button id="Eng">English</button>
+      </div>
         <div className="big-project">
     
           <div className="start-text">
