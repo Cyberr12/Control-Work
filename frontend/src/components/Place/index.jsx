@@ -1,5 +1,6 @@
 import "./style.scss"
 import Panasenkov from "../../Assets/Images/panasenkov.jpg"
+import MapComponents from '../common/MapComponents.jsx';
 
 function Place() {
     return ( 
@@ -11,7 +12,15 @@ function Place() {
           </p>
           <img src={Panasenkov} alt="Panasenkov" width="600" height="500" id="Panasenkov-id"/>
          </div>
-        
+        <div className="MapComponentsDiv">
+            <div className="MapComponentsDiv1">
+              <MapComponents/>
+            </div>
+            <div className="MapComponentsDiv2">
+                <h3>Здесь отображена ваше местоположение на карте !</h3>
+                <h4>"Pero Travel" - нам можно доверять !</h4>
+            </div>
+        </div>
         </>
      );
 }
