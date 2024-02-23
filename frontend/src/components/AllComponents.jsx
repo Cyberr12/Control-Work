@@ -17,6 +17,7 @@ import ElonMusk from "./Ecs/Developers/ElonMusk"
 import Niger from "./Ecs/Developers/Niger"
 import Sigma from "./Ecs/Developers/Sigma"
 import Gigachad from "./Ecs/Developers/Gigachad"
+import Registration from "./Registaition"
 
 function AllComponents() {
     return ( 
@@ -38,6 +39,7 @@ function AllComponents() {
                 <Route path="/Sigma" element={<Sigma />} />
                 <Route path="/Place" element={<Place />} />
                 <Route path="/Gigachad" element={<Gigachad />} />
+                <Route path="/Registration" element={<Registration />} />
                 <Route path="*" element={<NoPage />} />
             </Route>
         </Routes>

@@ -36,7 +36,7 @@ function Nav() {
 
         <div className="finnish-text">
           <button>
-            <Link to={"/countries"}>{language === 'ru' ? 'К Экскурсиям' : 'To Excursions'}</Link>
+            <Link to={"/Registration"}>{language === 'ru' ? 'Регистрация' : 'Registration'}</Link>
           </button>
           <br />
           <button>
